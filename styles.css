@@ -10,9 +10,9 @@ body {
 
 .profile-container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #00ffd5;
+    padding: 100px 60px;
+    border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .link-button:hover {
-    background-color: #005bb5;
+    background-color: #0080ff;
 }
     #video-fondo {
         position: fixed;
@@ -55,3 +55,22 @@ body {
         object-fit: cover;
         z-index: -1;
            }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los iconos */
+    margin: 20px 0;
+}
+
+.icon {
+    width: 40px; 
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Animación al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse sobre los iconos */
+.icon:hover {
+    transform: scale(1.1); /* Escala el icono */
+    opacity: 0.8; /* Reduce ligeramente la opacidad */
+}
