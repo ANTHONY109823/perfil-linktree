@@ -1,7 +1,7 @@
 // Datos del perfil
 const profileData = {
-    name: "Tu Nombre",
-    description: "Desarrollador Web | Amante de la tecnología"
+    name: "Anthony Ccayo",
+    description: "TI En proceso | Amante de la tecnología"
 };
 
 // Selecciona el contenedor de la información del perfil
@@ -17,3 +17,8 @@ descriptionElement.textContent = profileData.description;
 // Agrega los elementos al contenedor
 profileInfo.appendChild(nameElement);
 profileInfo.appendChild(descriptionElement);
+
+document.addEventListener('DOMContentLoaded', function () {
+    const video = document.getElementById('video-fondo');
+    video.play(); // Forzar la reproducción del video
+});
